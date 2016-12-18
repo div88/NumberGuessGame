@@ -32,9 +32,9 @@ int main(int argc, const char * argv[]) {
             scanf("%i", &guess);
             
             if (guess > answer) {
-                NSLog(@"Lower!");
+                NSLog(@"Close, but a little Lower!");
             } else if (guess < answer) {
-                NSLog(@"Higher!");
+                NSLog(@"A little bit Higher!");
             } else {
                 NSLog(@"Correct! The answer is %i", answer);
             }
